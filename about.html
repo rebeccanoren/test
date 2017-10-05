@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Rebecca Norén</title>
+	<title>Vortex - Responsive HTML5 Portfolio</title>
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="assets/images/favicon.png">
@@ -20,6 +20,7 @@
 	<!-- Plugins -->
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/ionicons.min.css" rel="stylesheet">
+	<link href="assets/css/linea-icons.css" rel="stylesheet">
 	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
 	<link href="assets/css/magnific-popup.css" rel="stylesheet">
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
@@ -32,70 +33,98 @@
 </head>
 <body>
 
+	<!-- PRELOADER -->
+	<div class="page-loader">
+		<div class="loader">Loading...</div>
+	</div>
+	<!-- /PRELOADER -->
 
 	<!-- OVERLAY MENU -->
 	<div id="overlay-menu" class="overlay-menu">
 
 		<a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"></i></a>
-		
+
 		<div class="overlay-menu-inner">
 			<nav class="overlay-menu-nav">
-		
+
 				<ul id="nav">
-		
+
 					<li class="slidedown">
-						<a href="index.html">Hem</a>
-						
+						<a href="#">Home</a>
+						<ul>
+							<li><a href="index.html">Light header</a></li>
+							<li><a href="index-2.html">Dark header</a></li>
+							<li><a href="index-3.html">Film overlay</a></li>
+							<li><a href="index-4.html">Image Slider</a></li>
+							<li><a href="index-5.html">Youtube Video</a></li>
+							<li><a href="index-6.html">Text rotator</a></li>
+							<li><a href="index-7.html">Agency</a></li>
+						</ul>
 					</li>
-		
-					<li><a href="about.html">Om</a></li>
-		
+
+					<li><a href="about.html">About</a></li>
+
 					<li class="slidedown">
 						<a href="#">Portfolio</a>
 						<ul>
-                          	<li><a href="handelsbanken.html">Handelsbanken</a></li><li><a href="food.html">Food</a></li> <li><a href="justarrived.html">Just Arrived</a></li>
-               			<li><a href="mathem.html">Mathem</a></li>
-							
-							
-							<li><a href="whendo.html">Whendo</a></li>
-                            <li><a href="freshkitchen.html">Fresh Kitchen</a></li>
-                            
-                            <li><a href="halmstadgolfklubb.html">Halmstad golfklubb</a></li>
-							<li><a href="orebrokommun.html">Örebro kommun</a></li>
-					
-						
+							<li><a href="portfolio-single-1.html">Single 1 - standartd</a></li>
+							<li><a href="portfolio-single-2.html">Single 2 - gallery</a></li>
+							<li><a href="portfolio-single-3.html">Single 3 - full height</a></li>
+							<li><a href="portfolio-single-4.html">Single 4 - Slider</a></li>
+							<li><a href="portfolio-single-5.html">Single 5 - Youtube header</a></li>
+							<li><a href="portfolio-single-6.html">Single 6 with slider</a></li>
+							<li><a href="portfolio-single-7.html">Single 7 with Youtube</a></li>
+							<li><a href="portfolio-single-8.html">Single 8 with Vimeo</a></li>
 						</ul>
 					</li>
-		
-			
-		
-					<li><a href="contact.html">Kontakt</a></li>
-		
+
+					<li class="slidedown">
+						<a href="#">News</a>
+						<ul>
+							<li><a href="blog-grid.html">3 column grid</a></li>
+							<li><a href="blog-grid-2.html">2 column grid</a></li>
+							<li><a href="blog-masonry.html">Blog Masonry</a></li>
+							<li><a href="blog-single.html">Single post</a></li>
+						</ul>
+					</li>
+
+					<li class="slidedown">
+						<a href="#">Features</a>
+						<ul>
+							<li><a href="components-1.html">Buttons, Content box, Progress bars</a></li>
+							<li><a href="components-2.html">Tab & Accordian</a></li>
+							<li><a href="components-3.html">Pricing tables</a></li>
+							<li><a href="components-4.html">Typography & Columns</a></li>
+							<li><a href="components-5.html">Modules & Overlays</a></li>
+						</ul>
+					</li>
+
+					<li><a href="contact.html">Contact</a></li>
+
 				</ul>
-		
+
 			</nav>
 		</div>
-		
+
 		<div class="overlay-navigation-footer">
-		
+
 			<div class="container">
-		
+
 				<div class="row">
-		
+
 					<div class="col-sm-12 text-center">
-						<p class="copyright font-alt m-b-0">hello@rebeccanoren.se</p>
+						<p class="copyright font-alt m-b-0">© 2015 Vortex, All Rights Reserved.</p>
 					</div>
-		
+
 				</div>
-		
+
 			</div>
-		
+
 		</div>
 
 	</div>
 	<!-- /OVERLAY MENU -->
-    
-    
+
 	<!-- WRAPPER -->
 	<div class="wrapper">
 
@@ -108,7 +137,7 @@
 					<!-- YOU LOGO HERE -->
 					<a class="navbar-brand" href="index.html">
 						<!-- IMAGE OR SIMPLE TEXT -->
-						<img src="assets/images/logo-dark.png" width="250" alt="">
+						<img src="assets/images/logo-dark.png" width="95" alt="">
 					</a>
 				</div>
 
@@ -125,9 +154,9 @@
 				<!-- /ICONS NAVBAR -->
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
-					<li><a href="index.html" title="Home">Hem</a></li>
-					<li><a href="about.html" title="About">Om</a></li>
-					<li><a href="contact.html" title="Contact">Kontakt</a></li>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="about.html" title="About">About</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
 				</ul>
 
 			</div>
@@ -136,11 +165,17 @@
 		<!-- /NAVIGATION -->
 
 		<!-- HERO -->
-		<section class="module module-parallax module-full-height bg-light-30" data-background="assets/images/rebecca.jpg">
+		<section class="module module-parallax bg-light-30" data-background="assets/images/section-7.jpg">
 
 			<!-- HERO TEXT -->
 			<div class="container">
 
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<h1 class="mh-line-size-3 font-alt m-b-20">About us</h1>
+						<h5 class="mh-line-size-4 font-alt">We don’t have a style — we have standards.</h5>
+					</div>
+				</div>
 
 			</div>
 			<!-- /HERO TEXT -->
@@ -158,18 +193,10 @@
 					<!-- ABOUT STUDIO  -->
 					<div class="col-sm-4">
 
-						<h4 class="font-alt m-t-0 m-b-20">Om mig</h4>
-						<p>Jag är 23 år gammal interaktionsdesigner, ursprungligen från Göteborg men för närvarande boendes i Stockholm. Jag har studerat informatik och företagsekonomi på Högskolan i Halmstad och Stockholms universitet och jag har en filosofie kandidatexamen i informatik med inriktning mot interaktionsdesign. Jag jobbar för närvarande på <a href="https://iteam.se/" title="Iteam"><b>Iteam</b></a> som UX-designer.</br></br>
-                        
-                        För mig handlar digital design om att överbrygga klyftan mellan människor och fysiska eller digitala artefakter och informationsflöden. Jag vill skapa fantastiska upplevelser genom iterativa processer, empati och ett stort engagemang för att verkligen förstå människor.
-                        
-                       
-                         
-                          </br></br>
-                          
-                          På fritiden håller jag mig gärna aktiverad genom att uppleva nya platser, träffa nya människor och hitta på roliga saker. Jag har ett stort intresse för fotografering, digital design, teckning och målning.
-                           </p>
+						<h4 class="font-alt m-t-0 m-b-20">About Studio</h4>
+						<p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
 
+						<p><a href="#team" class="section-scroll">Who We Are →</a></p>
 
 					</div>
 					<!-- /ABOUT STUDIO  -->
@@ -177,27 +204,10 @@
 					<!-- WHAT WE DO -->
 					<div class="col-sm-4">
 
-						<h4 class="font-alt m-t-0 m-b-20">Hur jag jobbar</h4>
-						<p>
-                          Min designprocess börar alltid med användarstudier i form av intervjuer, observationer och workshops som
-syftar till att undersöka behov, mål och önskningar. Därefter använder jag verktyg
-som personas, user journeys och service blueprints, skissning för att skapa förståelse och generera designförslag.
+						<h4 class="font-alt m-t-0 m-b-20">What We Do</h4>
+						<p>To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.</p>
 
-</br></br> 
-Jag gillar att snabbt skapa klickbara prototyper under designprocesser för att testa och utvärdera idéer och jag trivs bra när jag får arbeta i Sketch och InVision.
-
- På senaste tiden har jag även fått ett större intresse för programmering och jag trivs väldigt bra med att arbeta med Bootstrap och Foundation.
-
-                        
-                        
-                          </br></br>
-                          
-
-
- Jag brinner för att omvandla användares behov till något som
-bidrar med lönsamhet för företag genom UX. Jag är övertygad om att värdet för både
-användare och verksamheter uppstår i användningen av digitala tjänster. </p>
-
+						<p><a href="#services" class="section-scroll">Our Services →</a></p>
 
 					</div>
 					<!-- /WHAT WE DO -->
@@ -205,46 +215,33 @@ användare och verksamheter uppstår i användningen av digitala tjänster. </p>
 					<!-- SKILLS -->
 					<div class="col-sm-4">
 
-						
-                        
-						<h6 class="progress-title font-alt">Sketch</h6>
+						<h6 class="progress-title font-alt">Development</h6>
 						<div class="progress">
-							<div class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+							<div class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
 								<span class="font-alt"></span>
 							</div>
 						</div>
 
-						<h6 class="progress-title font-alt">InVision</h6>
+						<h6 class="progress-title font-alt">Branding</h6>
 						<div class="progress">
 							<div class="progress-bar pb-dark" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
 								<span class="font-alt"></span>
 							</div>
 						</div>
-                        
-                        <h6 class="progress-title font-alt">User experience</h6>
+
+						<h6 class="progress-title font-alt">Marketing</h6>
+						<div class="progress">
+							<div class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+								<span class="font-alt"></span>
+							</div>
+						</div>
+
+						<h6 class="progress-title font-alt">Photography</h6>
 						<div class="progress">
 							<div class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100">
 								<span class="font-alt"></span>
 							</div>
 						</div>
-
-						<h6 class="progress-title font-alt">Användbarhetstestning</h6>
-						<div class="progress">
-							<div class="progress-bar pb-dark" aria-valuenow="70" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<span class="font-alt"></span>
-							</div>
-						</div>
-                        
-                        <h6 class="progress-title font-alt">Programmering</h6>
-						<div class="progress">
-							<div class="progress-bar pb-dark" aria-valuenow="45" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<span class="font-alt"></span>
-							</div>
-						</div>
-                        
-                         <a href="https://www.linkedin.com/in/rebecca-nor%C3%A9n-11473a93/"><i class="fa fa-linkedin fa-2x"></i> </a> 
-                        
-                       
 
 					</div>
 					<!-- /SKILLS -->
@@ -255,19 +252,487 @@ användare och verksamheter uppstår i användningen av digitala tjänster. </p>
 
 		</section >
 		<!-- /ABOUT -->
-	
-	<!-- FOOTER -->
-		<footer class="module bg-light">
+
+		<!-- COUNTERS -->
+		<section class="module module-video bg-dark" data-background="assets/images/section-10.jpg">
 
 			<div class="container">
 
-			
+				<div class="row">
+
+					<!-- COUNTER -->
+					<div class="col-sm-3 m-b-md-20">
+						<div class="counter-item">
+							<div class="counter-title font-alt">
+								<h5 class="font-alt counter-number" data-number="680"><span></span></h5>
+								Cups of coffee
+							</div>
+						</div>
+					</div>
+					<!-- /COUNTER -->
+
+					<!-- COUNTER -->
+					<div class="col-sm-3 m-b-md-20">
+						<div class="counter-item">
+							<div class="counter-title font-alt">
+								<h5 class="font-alt counter-number" data-number="1234"><span></span></h5>
+								Total clients
+							</div>
+						</div>
+					</div>
+					<!-- /COUNTER -->
+
+					<!-- COUNTER -->
+					<div class="col-sm-3 m-b-md-20">
+						<div class="counter-item">
+							<div class="counter-title font-alt">
+								<h5 class="font-alt counter-number" data-number="68"><span></span>k</h5>
+								Photos made
+							</div>
+						</div>
+					</div>
+					<!-- /COUNTER -->
+
+					<!-- COUNTER -->
+					<div class="col-sm-3 m-b-md-20">
+						<div class="counter-item">
+							<div class="counter-title font-alt">
+								<h5 class="counter-number" data-number="98"><span></span>%</h5>
+								Happy clients
+							</div>
+						</div>
+					</div>
+					<!-- /COUNTER -->
+
+				</div>
+
+			</div>
+
+			<!-- YOUTUBE VIDEO-->
+			<div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=0pXYp72dwl0', containment:'.module-video', quality:'large', startAt:0, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:0, mute:true}"></div>
+			<!-- /YOUTUBE VIDEO-->
+
+		</section>
+		<!-- /COUNTERS -->
+
+		<!-- SERVICES -->
+		<section id="services" class="module">
+
+			<div class="container">
+
+				<!-- MODULE TITLE -->
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h2 class="module-title font-alt">Services</h2>
+					</div>
+				</div>
+				<!-- /MODULE TITLE -->
+
+				<div class="row multi-columns-row">
+
+					<!-- CONTENT BOX -->
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<i class="icon icon-basic-pencil-ruler"></i>
+							</div>
+							<h5 class="content-box-title font-alt">Designs & interfaces</h5>
+							<div class="content-box-text">
+								The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+
+					<!-- CONTENT BOX -->
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<i class="icon icon-basic-gear"></i>
+							</div>
+							<h5 class="content-box-title font-alt">Highly customizable</h5>
+							<div class="content-box-text">
+								The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+
+					<!-- CONTENT BOX -->
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<i class="icon icon-basic-laptop"></i>
+							</div>
+							<h5 class="content-box-title font-alt">Responsive design</h5>
+							<div class="content-box-text">
+								The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+
+					<!-- CONTENT BOX -->
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<i class="icon icon-basic-bolt"></i>
+							</div>
+							<h5 class="content-box-title font-alt">Features & plugins</h5>
+							<div class="content-box-text">
+								The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+
+					<!-- CONTENT BOX -->
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<i class="icon icon-basic-chronometer"></i>
+							</div>
+							<h5 class="content-box-title font-alt">Optimised for speed</h5>
+							<div class="content-box-text">
+								The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+
+					<!-- CONTENT BOX -->
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<i class="icon icon-basic-life-buoy"></i>
+							</div>
+							<h5 class="content-box-title font-alt">Dedicated support</h5>
+							<div class="content-box-text">
+								The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /SERVICES -->
+
+		<!-- TESTIMONIALS -->
+		<section class="module module-parallax bg-light-30" data-background="assets/images/section-3.jpg">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6 col-sm-offset-3">
+
+						<!-- TESTIMONIALS CAROUSEL -->
+						<div class="owl-carousel slider-testimonials text-center">
+
+							<!-- SLIDE 1 -->
+							<div class="item">
+								<h5 class="module-icon m-b-20">
+									<i class="ion-ios-chatboxes-outline"></i>
+								</h5>
+								<div class="font-serif m-b-20">
+									The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+								</div>
+								<div class="quote-author font-alt">Jack Woods / Somecompany inc.</div>
+							</div>
+							<!-- /SLIDE 1 -->
+
+							<!-- SLIDE 2 -->
+							<div class="item">
+								<h5 class="module-icon m-b-20">
+									<i class="ion-ios-chatboxes-outline"></i>
+								</h5>
+								<div class="font-serif m-b-20">
+									The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+								</div>
+								<div class="quote-author font-alt">Jack Woods, Somecompany inc.</div>
+							</div>
+							<!-- /SLIDE 2 -->
+
+							<!-- SLIDE 3 -->
+							<div class="item">
+								<h5 class="module-icon m-b-20">
+									<i class="ion-ios-chatboxes-outline"></i>
+								</h5>
+								<div class="font-serif m-b-20">
+									The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+								</div>
+								<div class="quote-author font-alt">Jack Woods, Somecompany inc.</div>
+							</div>
+							<!-- /SLIDE 3 -->
+
+						</div>
+						<!-- /TESTIMONIALS CAROUSEL -->
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /TESTIMONIALS -->
+
+		<!-- TEAM -->
+		<section id="team" class="module">
+
+			<div class="container">
+
+				<!-- MODULE TITLE -->
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h2 class="module-title font-alt">Our Team</h2>
+					</div>
+				</div>
+				<!-- /MODULE TITLE -->
+
+				<div class="row">
+
+					<!-- TEAM MEMBER -->
+					<div class="col-sm-6 col-md-3 m-b-md-20">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="assets/images/team/team-1.jpg" alt="">
+								<div class="team-detail text-center">
+									<ul class="social-icon-links socicon-circle">
+										<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+										<li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+										<li><a href="#"><i class="ion-social-octocat"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-descr">
+								<h5 class="team-name font-alt">Martin Friman</h5>
+								<div class="team-role font-serif">Programmer</div>
+							</div>
+						</div>
+					</div>
+					<!-- /TEAM MEMBER -->
+
+					<!-- TEAM MEMBER -->
+					<div class="col-sm-6 col-md-3 m-b-md-20">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="assets/images/team/team-2.jpg" alt="">
+								<div class="team-detail text-center">
+									<ul class="social-icon-links socicon-circle">
+										<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+										<li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+										<li><a href="#"><i class="ion-social-octocat"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-descr">
+								<h5 class="team-name font-alt">Andy River</h5>
+								<div class="team-role font-serif">Designer</div>
+							</div>
+						</div>
+					</div>
+					<!-- /TEAM MEMBER -->
+
+					<!-- TEAM MEMBER -->
+					<div class="col-sm-6 col-md-3 m-b-md-20">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="assets/images/team/team-3.jpg" alt="">
+								<div class="team-detail text-center">
+									<ul class="social-icon-links socicon-circle">
+										<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+										<li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+										<li><a href="#"><i class="ion-social-octocat"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-descr">
+								<h5 class="team-name font-alt">John Smith</h5>
+								<div class="team-role font-serif">Art Director</div>
+							</div>
+						</div>
+					</div>
+					<!-- /TEAM MEMBER -->
+
+					<!-- TEAM MEMBER -->
+					<div class="col-sm-6 col-md-3 m-b-md-20">
+						<div class="team-item">
+							<div class="team-image">
+								<img src="assets/images/team/team-4.jpg" alt="">
+								<div class="team-detail text-center">
+									<ul class="social-icon-links socicon-circle">
+										<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+										<li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+										<li><a href="#"><i class="ion-social-octocat"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-descr">
+								<h5 class="team-name font-alt">Adele Snow</h5>
+								<div class="team-role font-serif">Account manager</div>
+							</div>
+						</div>
+					</div>
+					<!-- /TEAM MEMBER -->
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /TEAM -->
+
+		<hr class="divider"><!-- DIVIDER -->
+
+		<!-- CLIENTS -->
+		<section class="module">
+
+			<div class="container">
+
+				<!-- MODULE TITLE -->
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h2 class="module-title font-alt">Recent Clients</h2>
+					</div>
+				</div>
+				<!-- /MODULE TITLE -->
+
+				<div class="row">
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-1.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-2.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-3.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-4.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-5.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-6.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-7.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-8.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-9.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-10.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-11.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-2 col-xs-6 client-item">
+						<a href="#">
+							<img src="assets/images/logos/logo-12.png" alt="">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /CLIENTS -->
+
+		<!-- FOOTER -->
+		<footer class="module bg-light">
+
+			<div class="container">
 
 				<div class="row">
 
 					<div class="col-sm-12">
 
-						<p class="copyright text-center m-b-0">hello@rebeccanoren.se</p>
+						<ul class="social-text-links font-alt text-center m-b-20">
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google plus</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Linkedin</a></li>
+							<li><a href="#">Dribbble</a></li>
+						</ul>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-sm-12">
+
+						<p class="copyright text-center m-b-0">© 2015 <a href="#">Vortex</a>, All Rights Reserved.</p>
 
 					</div>
 
@@ -308,17 +773,6 @@ användare och verksamheter uppstår i användningen av digitala tjänster. </p>
 	<script src="assets/js/gmaps.js"></script>
 	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/custom.js"></script>
-    
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-78491462-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
 </html>

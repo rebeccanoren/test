@@ -165,15 +165,14 @@
 		<!-- /NAVIGATION -->
 
 		<!-- HERO -->
-		<section class="module module-parallax bg-light-30" data-background="assets/images/section-13.jpg">
+		<section class="module module-parallax bg-light-30" data-background="assets/images/section-7.jpg">
 
 			<!-- HERO TEXT -->
 			<div class="container">
 
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<h1 class="mh-line-size-3 font-alt m-b-20">Contact Us</h1>
-						<h5 class="mh-line-size-4 font-alt">We will get back to you as soon as possible.</h5>
+						<h1 class="mh-line-size-3 font-alt m-b-20">Tab & Accordian</h1>
 					</div>
 				</div>
 
@@ -183,96 +182,111 @@
 		</section>
 		<!-- /HERO -->
 
-		<!-- CONTACT -->
+		<!-- TABS -->
 		<section class="module">
 
 			<div class="container">
 
+				<!-- MODULE TITLE -->
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
-						<h2 class="module-title font-alt">Get In Touch</h2>
-						<div class="module-subtitle font-serif">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</div>
+						<h2 class="module-title font-alt">Tabs</h2>
 					</div>
 				</div>
+				<!-- /MODULE TITLE -->
 
-				<div class="row">
+				<div class="row multi-columns-row">
 
-					<div class="col-sm-6 col-sm-offset-1">
+					<div class="col-sm-6 col-sm-offset-3">
 
-						<form id="contact-form" role="form" novalidate="">
-
-							<div class="form-group">
-								<label class="sr-only" for="cname">Name</label>
-								<input type="text" id="cname" class="form-control" name="cname" placeholder="Name*" required="" data-validation-required-message="Please enter your name.">
-								<p class="help-block text-danger"></p>
+						<!-- TABS -->
+						<div role="tabpanel">
+							<ul class="nav nav-tabs font-alt" role="tablist">
+								<li class="active"><a href="#support" data-toggle="tab">Support</a></li>
+								<li><a href="#sales" data-toggle="tab">Sales</a></li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="support">
+									The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.
+								</div>
+								<div class="tab-pane" id="sales">
+									The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental.
+								</div>
 							</div>
-
-							<div class="form-group">
-								<label class="sr-only" for="cemail">Your Email</label>
-								<input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail*" required="" data-validation-required-message="Please enter your email address.">
-								<p class="help-block text-danger"></p>
-							</div>
-
-							<div class="form-group">
-								<textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message*" required="" data-validation-required-message="Please enter your message."></textarea>
-								<p class="help-block text-danger"></p>
-							</div>
-
-							<div class="text-center">
-								<button type="submit" class="btn btn-block btn-round btn-d">Submit</button>
-							</div>
-
-						</form>
-
-						<!-- Ajax response -->
-						<div id="contact-response" class="ajax-response font-alt"></div>
-
-					</div>
-
-					<div class="col-sm-4">
-
-						<!-- ALT CONTENT BOX -->
-						<div class="alt-content-box m-t-0 m-t-sm-30">
-							<div class="alt-content-box-icon">
-								<i class="ion-paper-airplane"></i>
-							</div>
-							<h5 class="alt-content-box-title font-alt">
-								Say Hello
-							</h5>
-							Email: somecompany@example.com<br>
-							Phone: +1 234 567 89 10
 						</div>
-						<!-- /ALT CONTENT BOX -->
-
-						<!-- ALT CONTENT BOX -->
-						<div class="alt-content-box">
-							<div class="alt-content-box-icon">
-								<i class="ion-map"></i>
-							</div>
-							<h5 class="alt-content-box-title font-alt">
-								Where to meet
-							</h5>
-							Vortex Company,<br>
-							23 Greate Street, Los Angeles, 12345 LS<br><br>
-							<a href="#module-maps" class="section-scroll">Find us on map →</a>
-						</div>
-						<!-- /ALT CONTENT BOX -->
+						<!-- /TABS -->
 
 					</div>
 
 				</div>
 
 			</div>
-		</section>
-		<!-- /CONTACT -->
-
-		<!-- GOOGLE MAP -->
-		<section id="module-maps">
-
-			<div id="map"></div>
 
 		</section>
-		<!-- /GOOGLE MAP -->
+		<!-- /TABS -->
+
+		<hr class="divider"><!-- DIVIDER -->
+
+		<!-- ACCORDIONS -->
+		<section class="module">
+
+			<div class="container">
+
+				<!-- MODULE TITLE -->
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h2 class="module-title font-alt">Accordions</h2>
+					</div>
+				</div>
+				<!-- /MODULE TITLE -->
+
+				<div class="row multi-columns-row">
+
+					<div class="col-sm-6 col-sm-offset-3">
+
+						<!-- ACCORDIONS -->
+						<div class="panel-group" id="accordion">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title font-alt">
+										<a data-toggle="collapse" data-parent="#accordion" href="#support1">
+											The European languages are members?
+										</a>
+									</h4>
+								</div>
+								<div id="support1" class="panel-collapse collapse in">
+									<div class="panel-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+									</div>
+								</div>
+							</div>
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title font-alt">
+										<a data-toggle="collapse" data-parent="#accordion" href="#support2" class="collapsed">
+											If several languages coalesce?
+										</a>
+									</h4>
+								</div>
+								<div id="support2" class="panel-collapse collapse">
+									<div class="panel-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<!-- /ACCORDIONS -->
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- /ACCORDIONS -->
 
 		<!-- FOOTER -->
 		<footer class="module bg-light">

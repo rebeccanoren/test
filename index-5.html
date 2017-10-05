@@ -165,114 +165,214 @@
 		<!-- /NAVIGATION -->
 
 		<!-- HERO -->
-		<section class="module module-parallax bg-light-30" data-background="assets/images/section-13.jpg">
+		<section id="hero" class="module-hero module-video module-full-height bg-light-30" data-background="assets/images/section-11.jpg">
 
 			<!-- HERO TEXT -->
-			<div class="container">
+			<div class="hero-caption">
+				<div class="hero-text">
 
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h1 class="mh-line-size-3 font-alt m-b-20">Contact Us</h1>
-						<h5 class="mh-line-size-4 font-alt">We will get back to you as soon as possible.</h5>
-					</div>
+					<h1 class="mh-line-size-1 font-alt m-b-50">James Vortex</h1>
+					<h5 class="mh-line-size-4 font-alt">professional photographer</h5>
+
 				</div>
-
 			</div>
 			<!-- /HERO TEXT -->
+
+			<!-- YOUTUBE VIDEO-->
+			<div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=EMy5krGcoOU', containment:'.module-video', quality:'large', startAt:0, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:0, mute:true}"></div>
+			<!-- /YOUTUBE VIDEO-->
 
 		</section>
 		<!-- /HERO -->
 
-		<!-- CONTACT -->
-		<section class="module">
+		<!-- PORTFOLIO -->
+		<section id="portfolio" class="module">
 
 			<div class="container">
 
-				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3">
-						<h2 class="module-title font-alt">Get In Touch</h2>
-						<div class="module-subtitle font-serif">The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</div>
-					</div>
-				</div>
-
+				<!-- FILTER -->
 				<div class="row">
 
-					<div class="col-sm-6 col-sm-offset-1">
-
-						<form id="contact-form" role="form" novalidate="">
-
-							<div class="form-group">
-								<label class="sr-only" for="cname">Name</label>
-								<input type="text" id="cname" class="form-control" name="cname" placeholder="Name*" required="" data-validation-required-message="Please enter your name.">
-								<p class="help-block text-danger"></p>
-							</div>
-
-							<div class="form-group">
-								<label class="sr-only" for="cemail">Your Email</label>
-								<input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail*" required="" data-validation-required-message="Please enter your email address.">
-								<p class="help-block text-danger"></p>
-							</div>
-
-							<div class="form-group">
-								<textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message*" required="" data-validation-required-message="Please enter your message."></textarea>
-								<p class="help-block text-danger"></p>
-							</div>
-
-							<div class="text-center">
-								<button type="submit" class="btn btn-block btn-round btn-d">Submit</button>
-							</div>
-
-						</form>
-
-						<!-- Ajax response -->
-						<div id="contact-response" class="ajax-response font-alt"></div>
-
-					</div>
-
-					<div class="col-sm-4">
-
-						<!-- ALT CONTENT BOX -->
-						<div class="alt-content-box m-t-0 m-t-sm-30">
-							<div class="alt-content-box-icon">
-								<i class="ion-paper-airplane"></i>
-							</div>
-							<h5 class="alt-content-box-title font-alt">
-								Say Hello
-							</h5>
-							Email: somecompany@example.com<br>
-							Phone: +1 234 567 89 10
-						</div>
-						<!-- /ALT CONTENT BOX -->
-
-						<!-- ALT CONTENT BOX -->
-						<div class="alt-content-box">
-							<div class="alt-content-box-icon">
-								<i class="ion-map"></i>
-							</div>
-							<h5 class="alt-content-box-title font-alt">
-								Where to meet
-							</h5>
-							Vortex Company,<br>
-							23 Greate Street, Los Angeles, 12345 LS<br><br>
-							<a href="#module-maps" class="section-scroll">Find us on map →</a>
-						</div>
-						<!-- /ALT CONTENT BOX -->
-
+					<div class="col-sm-12">
+						<ul id="filters" class="filters font-alt">
+							<li><a href="#" data-filter="*" class="current">All <sup><small>.355</small></sup></a></li>
+							<li><a href="#" data-filter=".branding">Branding <sup><small>.78</small></sup></a></li>
+							<li><a href="#" data-filter=".design">Design <sup><small>.123</small></sup></a></li>
+							<li><a href="#" data-filter=".photo">Photo <sup><small>.144</small></sup></a></li>
+							<li><a href="#" data-filter=".web">Web <sup><small>.140</small></sup></a></li>
+						</ul>
 					</div>
 
 				</div>
+				<!-- /FILTER -->
+
+				<!-- WORKS GRID -->
+				<div class="row">
+
+					<div id="works-grid" class="works-grid works-hover-w">
+
+						<!-- DO NOT DELETE THIS DIV -->
+						<div class="grid-sizer"></div>
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item tall branding">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-1.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">The European languages</h3>
+									<div class="work-descr">
+										Branding
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item design">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-2.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">The languages only</h3>
+									<div class="work-descr">
+										Design
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item design">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-3.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">Everyone realizes</h3>
+									<div class="work-descr">
+										Design
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item design">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-4.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">Corporate Identity</h3>
+									<div class="work-descr">
+										Design
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item design">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-5.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">Cambridge friend</h3>
+									<div class="work-descr">
+										Design
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item wide-tall branding photo web">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-6.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">The grammar of the resulting language</h3>
+									<div class="work-descr">
+										Branding / Photo / Web
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item wide design photo web">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-7.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">A collection of textile samples</h3>
+									<div class="work-descr">
+										Design / Photo / Web
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item branding photo">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-8.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">Gregor then turned</h3>
+									<div class="work-descr">
+										Branding / Photo
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item branding photo">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-9.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">He must have tried it</h3>
+									<div class="work-descr">
+										Branding / Photo
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item wide design web">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/img-10.jpg" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">However hard he threw himself</h3>
+									<div class="work-descr">
+										Design / Web
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+
+					</div>
+
+				</div>
+				<!-- /WORKS GRID -->
+
+				<!-- SHOW MORE -->
+				<div class="row m-t-70 text-center wow fadeInUp">
+					<div class="col-sm-12">
+
+						<button id="show-more" class="btn btn-block btn-lg btn-g show-more">More works</button>
+
+					</div>
+				</div>
+				<!-- /SHOW MORE -->
 
 			</div>
-		</section>
-		<!-- /CONTACT -->
-
-		<!-- GOOGLE MAP -->
-		<section id="module-maps">
-
-			<div id="map"></div>
 
 		</section>
-		<!-- /GOOGLE MAP -->
+		<!-- /PORTFOLIO -->
 
 		<!-- FOOTER -->
 		<footer class="module bg-light">
